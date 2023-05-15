@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    width: 100%;
+    background: #ececec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#content1{
+    position: fixed;
+    top:0px;
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px;
+    box-shadow: 0px 3px 3px #ccd1d3;
+}
+
+#img{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-1{
+    width: 20%;
+    height: 100%;
+
+}
+#img-1-1{
+    width: 100%;
+    height: 95%;
+    margin-top:4%;
+}
+#img-2{
+    width: 80%;
+    height: 100%;
+}
+#img-2-2{
+    width: 100%;
+    height: 95%;
+
+}
+#nav{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.li a{
+    text-decoration: none;
+    color: black;
+}
+.li{
+    list-style: none;
+    height: 100%;
+    width: 15%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top:40px;
+    text-decoration: none;
+}
+#shouye{
+    width: 10%;
+}
+
+#content3{
+    width: 80%;
+    height: 130px;
+    background: #d5d5d5;
+    text-align: center;
+    padding-top: 20px;
+}
+#content3 p{
+    margin-top: 12px;
+}
+#content2 {
+    min-height: 750px;
+    height: auto;
+    width: 80%;
+    background: white;
+}
+#content2 .content2-title {
+    height: 60px;
+    text-align: center;
+    font-size: 55px;
+    padding: 20px;
+    margin-top: 5px;
+}
+#content2 .grade-box .year{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+
+}
+
+#content2 .grade-box .year li {
+    font-size: 40px;
+}
+
+#content2 .grade-box .year div {
+    width: 90%;
+    padding: 2px;
+    border-bottom:2px dashed gray ;
+    margin-bottom: 20px;
+}
+
+#content2 .grade-box {
+     height:160px;
+    text-align: center
+}
+
+#content2 .grade-box .people-name {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+#content2 .grade-box .people-name #luoyunzhong {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+
+#content2 .grade-box .people-name #longyouxi {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+
+#content2 .grade-box .people-name #tukecheng {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+
+#content2 .grade-box .people-name #yangyumeng {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+
+#content2 .grade-box .people-name #wenyunzhou {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+
+#content2 .grade-box .people-name #liliuhuan {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+
+#content2 .grade-box .people-name #daiqian {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+#content2 .grade-box .people-name #yangzhen {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+#content2 .grade-box .people-name #liuzhiyang {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+#content2 .grade-box .people-name #liuyuchen {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+
+#content2 .grade-box .people-name #liangxin {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+
+#content2 .grade-box .people-name #chenxuefeng {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+#content2 .grade-box .people-name #zhangyan {
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+#content2 .grade-box .people-name #zhaozhiwei{
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+#content2 .grade-box .people-name #liuyanping{
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+#content2 .grade-box .people-name #pengdachuan{
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+#content2 .grade-box .people-name #tianye{
+    width:20%;
+    font-size: 30px;
+    height: 100%;
+}
+ /*鼠标悬停加粗字体功能*/
+ li:hover {
+    font-weight: bold;
+}
+ /*鼠标悬停加粗字体功能*/
+.people-name div:hover{
+    font-weight: bold;
+}

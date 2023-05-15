@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./plugins/bootstrap-3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap-3.4.1/css/bootstrap.css' %}">
+    <link rel="stylesheet" href='./css/home.css'>
+</head>
+<body>
+<div id="main">
+    <!--顶出导航栏-->
+    <div style="height: 0px;"></div>
+    <div id="content1">
+        <div id="img">
+            <div id="img-1">
+                <img id="img-1-1" src="./img/组徽.png">
+            </div>
+            <div id="img-2">
+                <img id="img-2-2" src="./img/实验室.png">
+            </div>
+        </div>
+        <div id="nav">
+            <li class="li" id="shouye"><a href="首页.html" style="text-decoration: none;color: #0f0f0f;font-weight: 900;">首页</a></li>
+            <li class="li"><a href="科研成果.html">科研成果</a></li>
+            <li class="li"><a href="研发项目.html">研发项目</a></li>
+            <li class="li"><a href="成员风采.html">成员风采</a></li>
+            <li class="li"><a href="实验室活动.html">实验室活动</a></li>
+            <li id="guanzhu" class="li"><a href="近期关注.html">近期关注</a></li>
+        </div>
+    </div>
+    
+    <div id="content2">
+        <div class="pic">
+            <!--轮播图-->
+            <div class="bs-example" data-example-id="simple-carousel" style="width: 100%">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item">
+                            <img data-src="holder.js/900x500/auto/#777:#555/text:First slide"
+                                 alt="First slide [900x500]"
+                                 src="./img/1.jpg"
+                                 style="width:100%;height:400px;"
+                                 data-holder-rendered="true">
+                        </div>
+                        <div class="item">
+                            <img data-src="holder.js/900x500/auto/#666:#444/text:Second slide"
+                                 alt="Second slide [900x500]"
+                                 src="./img/2.jpg"
+                                 style="width:100%;height: 400px;"
+                                 data-holder-rendered="true">
+                        </div>
+                        <div class="item active">
+                            <img data-src="holder.js/900x500/auto/#555:#333/text:Third slide"
+                                 alt="Third slide [900x500]"
+                                 src="./img/3.jpg"
+                                 style="width:100%;height: 400px;"
+                                 data-holder-rendered="true">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <script src="./js/jquery-3.6.0.min.js"></script>
+            <script src="./plugins/bootstrap-3.4.1/js/bootstrap.js"></script>
+        </div>
+        <div class="intro">
+            <h1><strong>实验室简介</strong></h1>
+            <p>&emsp;&emsp;智能网络创新实验室，创建于2010年，原名SDN实验室。自成立以来，实验室致力于研究网络安全，无人机，流量监测等方向。
+                目前团队中已有已有xx名成员。</p>
+            <p>&emsp;&emsp;实验室还承担学校本科生和研究生的教学工作，教学内容注重与网络技术发展同步，并及时将科研成果反映到课堂教学和实验中。 所开设课程包括信息学院院定。</p>
+        </div>
+    </div>
+    <div id="content3">
+        <p><strong>联系我们</strong></p>
+        <p>E-mail： plhong AT ustc.edu.cn(洪) hclu AT ustc.edu.cn(卢) kpxue AT ustc.edu.cn(薛)</p>
+        <p><a  style="text-decoration:none;color: rgb(0, 0, 0);"  href="https://acnl.scuec.edu.cn/">资源链接：https://acnl.scuec.edu.cn/</a></p>
+    </div>
+</div>
+
+</body>
+</html>

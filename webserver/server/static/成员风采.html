@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='./css/people.css'>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/people.js"></script>
+</head>
+<body>
+<div id="main">
+    <!-- <script src="./js/detail.js"></script> -->
+    <div style="height: 80px;"></div>
+    <div id="content1">
+        <div id="img">
+            <div id="img-1">
+                <img id="img-1-1" src="./img/组徽.png">
+            </div>
+            <div id="img-2">
+                <img id="img-2-2" src="./img/实验室.png">
+            </div>
+        </div>
+        <div id="nav">
+            <li class="li" id="shouye"><a href="首页.html" style="text-decoration: none;color: #0f0f0f">首页</a></li>
+            <li class="li"><a href="科研成果.html">科研成果</a></li>
+            <li class="li"><a href="研发项目.html">研发项目</a></li>
+            <li class="li"><a href="成员风采.html" style="font-weight: 900;">成员风采</a></li>
+            <li class="li"><a href="实验室活动.html">实验室活动</a></li>
+            <li id="guanzhu" class="li"><a href="近期关注.html">近期关注</a></li>
+        </div>
+    </div>
+    <div id="content2">
+        <div class="content2-title">成员力量</div>
+        <!--2022届-->
+        <div class="grade-box">
+            <div class="year">
+                <li>2022</li>
+                <div></div>
+            </div>
+
+            <div class="people-name">
+                <div id="luoyunzhong"
+                     onclick="jump(this.innerHTML)">罗禹中
+                </div>
+                <div id="longyouxi" onclick="jump(this.innerHTML)">龙佑熙</div>
+                <div id="tukecheng" onclick="jump(this.innerHTML)">涂可骋</div>
+            </div>
+
+        </div>
+        <!--2021届-->
+        <div class="grade-box">
+            <div class="year">
+                <li>2021</li>
+                <div></div>
+            </div>
+
+            <div class="people-name">
+                <div id="yangyumeng" onclick="jump(this.innerHTML)">杨雨盟</div>
+                <div id="wenyunzhou" onclick="jump(this.innerHTML)">闻云洲</div>
+                <div id="liliuhuan" onclick="jump(this.innerHTML)">李刘欢</div>
+            </div>
+
+        </div>
+
+        <!--2020届-->
+        <div class="grade-box">
+            <div class="year">
+                <li>2020</li>
+                <div></div>
+            </div>
+
+            <div class="people-name">
+                <div id="daiqian">代倩</div>
+                <div id="yangzhen">杨振</div>
+                <div id="liuzhiyang">刘智扬</div>
+                <div id="liuyuchen">刘宇宸</div>
+                <div id="liangxin">粱鑫</div>
+            </div>
+
+        </div>
+
+        <!--2019届-->
+        <div class="grade-box">
+            <div class="year">
+                <li>2019</li>
+                <div></div>
+            </div>
+
+            <div class="people-name">
+                <div id="chenxuefeng">陈雪峰</div>
+                <div id="zhangyan">张艳</div>
+                <div id="zhaozhiwei">赵志伟</div>
+            </div>
+
+        </div>
+
+        <!--2018届-->
+        <div class="grade-box">
+            <div class="year">
+                <li>2018</li>
+                <div></div>
+            </div>
+
+            <div class="people-name">
+                <div id="liuyanping">刘艳萍</div>
+                <div id="pengdachuan">彭大川</div>
+                <div id="tianye">田野</div>
+            </div>
+        </div>
+    </div>
+    <div id="content3">
+        <p><strong>联系我们</strong></p>
+        <p>E-mail： plhong AT ustc.edu.cn(洪) hclu AT ustc.edu.cn(卢) kpxue AT ustc.edu.cn(薛)</p>
+        <p><a  style="text-decoration:none;color: rgb(0, 0, 0);"  href="https://acnl.scuec.edu.cn/">资源链接：https://acnl.scuec.edu.cn/</a></p>
+    </div>
+</div>
+<script>
+    /*window.open([URL], [窗口名称], [参数字符串])
+   _blank：在新窗口显示目标网页
+   _self：在当前窗口显示目标网页
+   _top：框架网页中在上部窗口中显示目标网页
+    该参数是被打开的窗口的名字，该参数只是一个窗口标识，用于以后通过它来找到对应的窗口的引用。*/
+    function jump(id) {
+        window.open('详情.html?' + id, id)
+        // get(id)
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    width: 100%;
+    background: #ececec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#content1{
+    position: fixed;
+    top:0px;
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px;
+    box-shadow: 0px 3px 3px #ccd1d3;
+}
+
+#img{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-1{
+    width: 20%;
+    height: 100%;
+
+}
+#img-1-1{
+    width: 100%;
+    height: 95%;
+    margin-top:4%;
+}
+#img-2{
+    width: 80%;
+    height: 100%;
+}
+#img-2-2{
+    width: 100%;
+    height: 95%;
+
+}
+#nav{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.li{
+    list-style: none;
+    height: 100%;
+    width: 15%;
+    font-size:1.5rem;
+    text-align: center;
+    margin-top:40px;
+}
+.li a{
+    text-decoration: none;
+    color: black;
+}
+#shouye{
+    width: 10%;
+}
+#content2{
+    height: 900px;
+    width: 80%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.font{
+    width: 88%;
+    height: 90px;
+    text-align: center;
+    box-shadow: 0px 2px 0px #ccd1d3;
+}
+.font p{
+    font-size: 45px;
+    margin-top: 10px;
+}
+.img-activity{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.paper_box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#content3{
+    width: 80%;
+    height: 130px;
+    background: #d5d5d5;
+    text-align: center;
+    padding-top: 20px;
+}
+#content3 p{
+    margin-top: 12px;
+}
